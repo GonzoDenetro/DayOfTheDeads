@@ -19,3 +19,13 @@ var TrandingSlider = new Swiper('.tranding-slider', {
       prevEl: '.swiper-button-prev',
     }
   });
+
+  // Función para incrementar el contador
+  function incrementarContador() {
+    if (localStorage.getItem('visitas')) {
+      localStorage.setItem('visitas', parseInt(localStorage.getItem('visitas')) + 1);
+    } else {
+      localStorage.setItem('visitas', 1);
+    }
+    document.getElementById('contador-visitas').textContent = localStorage.getItem('visitas');
+  }
