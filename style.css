@@ -61,7 +61,16 @@ body {
   font-size: 1.6rem;
   background-image: url(https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/aa462558-0106-4268-9864-d34a4f35531f);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;  
+}
+
+.form-class {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    align-items: center;
+    /*height: 100vh; /* Ajusta la altura según tus necesidades */
+    /*background-color: rgba(0, 0, 0, 0.5); /* Color de fondo opcional */
 }
 
 .container {
